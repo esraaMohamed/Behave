@@ -3,7 +3,7 @@ import sys
 from behave import given, when, then
 from selenium import webdriver
 
-from BDD1.features.lib.pages import LoginPO, HomePO
+from BDD1.features.lib.pages import LoginPage, HomePage
 
 
 @given("I open the website")
@@ -16,7 +16,7 @@ def open_the_website(context):
     print("I am opening the website")
     print(sys.path)
     context.browser = webdriver.Firefox()
-    page = LoginPO.LoginPage(context=context)
+    page = LoginPage.LoginPage(context=context)
     page.visit("http://www.demo.guru99.com/V4/")
     print("Login page should be open now")
 
@@ -29,7 +29,7 @@ def enter_username(context):
     :return:
     """
     print("Typing the email in the username field")
-    page = LoginPO.LoginPage(context=context)
+    page = LoginPage.LoginPage(context=context)
     page.input_username(username="mngr66332")
     print("Just finished typing the email in the username field")
 
@@ -42,7 +42,7 @@ def enter_password(context):
     :return:
     """
     print("Typing the password in the password field")
-    page = LoginPO.LoginPage(context=context)
+    page = LoginPage.LoginPage(context=context)
     page.input_password(passwd="vavYren")
     print("Just finished typing the password in the password field")
 
@@ -55,7 +55,7 @@ def click_login_button(context):
     :return:
     """
     print("Clicking on the login button")
-    page = LoginPO.LoginPage(context=context)
+    page = LoginPage.LoginPage(context=context)
     page.click_sign_in()
     print("Just finished clicking the login button")
 

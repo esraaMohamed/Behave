@@ -1,4 +1,4 @@
-from .BasePO import *
-from .HomePO import *
+from .BasePage import *
+from .HomePage import *
 from .PagesPO import *
 
