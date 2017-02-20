@@ -1,0 +1,54 @@
+1487578191056	geckodriver	INFO	Listening on 127.0.0.1:58391
+1487578192280	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.DILOmaU1Ip45
+1487578192281	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487578192294	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58400
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487578192949	Marionette	INFO	Listening on port 58400
+1487578241845	geckodriver	INFO	Listening on 127.0.0.1:58429
+1487578242893	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.z2MQmBHAmEk4
+1487578242894	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487578242898	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58438
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487578243426	Marionette	INFO	Listening on port 58438
+1487579277648	geckodriver	INFO	Listening on 127.0.0.1:58752
+1487579278671	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.kALLV6zFxSCZ
+1487579278673	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487579278676	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58761
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487579279259	Marionette	INFO	Listening on port 58761
+JavaScript error: http://www.demo.guru99.com/V4/index.php, line 1: SyntaxError: missing ) after argument list
+1487579320886	geckodriver	INFO	Listening on 127.0.0.1:58800
+1487579321937	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.KhSBEXESy1Hg
+1487579321938	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487579321942	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58809
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487579322552	Marionette	INFO	Listening on port 58809
+JavaScript error: http://www.demo.guru99.com/V4/index.php, line 1: SyntaxError: missing ) after argument list
+1487579331413	geckodriver	INFO	Listening on 127.0.0.1:58848
+1487579332454	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.vraSgOtgf9jr
+1487579332455	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487579332458	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58857
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487579333002	Marionette	INFO	Listening on port 58857
+JavaScript error: http://www.demo.guru99.com/V4/index.php, line 1: SyntaxError: missing ) after argument list
+1487579423546	geckodriver	INFO	Listening on 127.0.0.1:58911
+1487579424588	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.X2g9ogsnC1uB
+1487579424590	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487579424595	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58920
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487579425131	Marionette	INFO	Listening on port 58920
+JavaScript error: http://www.demo.guru99.com/V4/index.php, line 1: SyntaxError: missing ) after argument list
+1487579445012	geckodriver	INFO	Listening on 127.0.0.1:58959
+1487579446077	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.CbVntd8vZv8J
+1487579446079	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487579446084	geckodriver::marionette	INFO	Connecting to Marionette on localhost:58968
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487579446664	Marionette	INFO	Listening on port 58968
+JavaScript error: http://www.demo.guru99.com/V4/index.php, line 1: SyntaxError: missing ) after argument list
+1487579506731	geckodriver	INFO	Listening on 127.0.0.1:59016
+1487579507776	mozprofile::profile	INFO	Using profile path /var/folders/9j/8_18gwbd0dq3lvsycj_s0zmw0000gp/T/rust_mozprofile.w1eDeTMfAqCV
+1487579507778	geckodriver::marionette	INFO	Starting browser /Applications/Firefox.app/Contents/MacOS/firefox-bin
+1487579507781	geckodriver::marionette	INFO	Connecting to Marionette on localhost:59025
+[warn] kq_init: detected broken kqueue; not using.: Undefined error: 0
+1487579508311	Marionette	INFO	Listening on port 59025
+JavaScript error: http://www.demo.guru99.com/V4/index.php, line 1: SyntaxError: missing ) after argument list
