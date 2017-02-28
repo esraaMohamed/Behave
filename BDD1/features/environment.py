@@ -45,19 +45,20 @@ def before_scenario(context, scenario):
         context.browser = webdriver.PhantomJS()
     else:
         print("Browser you entered:", BROWSER, "is invalid value")
-    context.browser.implicitly_wait(100)
+    context.browser.implicitly_wait(1000)
     context.browser.maximize_window()
     print("Before scenario\n")
 
 
 def after_scenario(context, scenario):
-    print("scenario status" + scenario.status)
+    print("scenario status " + scenario.status)
     if scenario.status == "failed":
         if not os.path.exists("failed_scenarios_screenshots"):
             os.makedirs("failed_scenarios_screenshots")
         os.chdir("failed_scenarios_screenshots")
         context.browser.save_screenshot(scenario.name + "_failed.png")
     context.browser.quit()
+
 
 def after_feature(context, feature):
             print("\nAfter Feature")

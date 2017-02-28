@@ -14,6 +14,7 @@ class BasePage(object):
         self.timeout = 30
 
     def visit(self, url):
+        # time.sleep(10)
         self.browser.get(url)
 
     def find_element(self, *loc):
@@ -47,3 +48,9 @@ class BasePage(object):
 
     def method_missing(self, what):
         print "No %s here!" % what
+
+    def wait_for_element(self, by, value):
+        element = WebDriverWait(self.browser, 2).until(
+            EC.presence_of_element_located((by, value))
+        )
+        return element

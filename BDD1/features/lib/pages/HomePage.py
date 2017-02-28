@@ -1,11 +1,12 @@
 from selenium.webdriver.common.by import By
+
 from BasePage import BasePage
 
 
 class HomePage(BasePage):
     locator_dictionary = {
         "welcome_message": (By.TAG_NAME, 'marquee'),  # Welcome To Manager's Page of Guru99 Bank
-        "manager_id": (By.XPATH, '/html/body/table/tbody/tr/td/table/tbody/tr[3]/td')
+        "manager_id": (By.CSS_SELECTOR, 'td[style="color: green"]')
     }
 
     # title :  Guru99 Bank Manager HomePage
@@ -24,3 +25,5 @@ class HomePage(BasePage):
             return True
         else:
             raise AssertionError('manager id is not displayed')
+
+

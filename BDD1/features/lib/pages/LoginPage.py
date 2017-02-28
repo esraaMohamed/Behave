@@ -1,4 +1,3 @@
-
 from BasePage import BasePage
 from selenium.webdriver.common.by import By
 
@@ -27,3 +26,7 @@ class LoginPage(BasePage):
     def click_sign_in(self):
         self.find_element(*self.locator_dictionary['sign_in']).click()
 
+    def login(self, username="", passwd=""):
+        self.find_element(*self.locator_dictionary['username']).send_keys(username)
+        self.find_element(*self.locator_dictionary['password']).send_keys(passwd)
+        self.find_element(*self.locator_dictionary['sign_in']).click()

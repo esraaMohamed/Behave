@@ -3,7 +3,6 @@ from behave import given, when, then
 
 from ..lib.pages import LoginPage, HomePage
 
-
 @given("I open the website")
 def open_the_website(context):
     """
@@ -15,6 +14,12 @@ def open_the_website(context):
     page = LoginPage.LoginPage(context)
     page.visit("http://www.demo.guru99.com/V4/")
     print("Login page should be open now")
+
+
+@when('I login with "{username}" and "{password}"')
+def logging_in_one_step(context, username, password):
+    page = LoginPage.LoginPage(context)
+    page.login(username=username, passwd=password)
 
 
 @when("I enter the user name")
